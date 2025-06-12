@@ -11,6 +11,10 @@ Campinas, ___ de 2025
 
 ---
 
+Clone do submodulo FreeRTOS
+
+git submodule add https://github.com/FreeRTOS/FreeRTOS-Kernel.git FreeRTOS
+
 <!-- INSIRA O CONTEÚDO DO SEU README AQUI! -->
 
 ---
