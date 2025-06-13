@@ -126,5 +126,23 @@ Em ambos os modos, o sistema atualiza o display OLED com o estado atual das tare
 
 ---
 
+## Resposta das questões
+
+- O que acontece se todas as tarefas tiverem a mesma prioridade?
+
+    - Se todas as tarefas tiverem a mesma prioridade, **o escalonador do FreeRTOS aplicará um esquema de round-robin cooperativo entre as tarefas prontas para executar,** ou seja, as tarefas compartilham o tempo de CPU igualmente, revezando a execução com base em quantos ticks cada uma ocupa. Como seu projeto utiliza chamadas como vTaskDelay(), as tarefas naturalmente cedem o processador, permitindo o revezamento suave entre elas.
+
+- Qual a tarefa que mais consome tempo de CPU?
+    - **É a  tarefa de botões**, roda com mais frequência e envolve:
+        Leitura de GPIOs
+        Atualização do display OLED
+        Lógica condicional e semáforos (no modo com semáforos)
+    Obs.: As tarefas de LED RGB e buzzer são bastante leves: realizam pequenas ações (troca de cor ou beep) e dormem (vTaskDelay) por alguns milissegundos.
+
+- Quais seriam os riscos de usar polling sem prioridades?
+    - Se todas as tarefas tiverem a mesma prioridade e a frequência de polling for alta, **uma tarefa pode atrasar a execução de outra mais importante**, como o reconhecimento rápido do botão.
+
+---
+
 ## 📜 Licença
 GNU GPL-3.0.
