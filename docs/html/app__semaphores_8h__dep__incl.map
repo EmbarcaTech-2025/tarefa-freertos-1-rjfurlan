@@ -1,0 +1,7 @@
+<map id="include/app_semaphores.h" name="include/app_semaphores.h">
+<area shape="rect" id="node1" title="Initializes semaphores and makes them available." alt="" coords="162,5,358,32"/>
+<area shape="rect" id="node2" href="$main_8c.html" title="Initializes devices and launches tashs on the RTOS." alt="" coords="5,80,72,107"/>
+<area shape="rect" id="node3" href="$app__semaphores_8c.html" title="Initializes semaphores and makes them available." alt="" coords="97,80,263,107"/>
+<area shape="rect" id="node4" href="$buttons_8c.html" title="Initializes the button GPIOs and provides task functions, with and without the use of semaphores,..." alt="" coords="287,80,393,107"/>
+<area shape="rect" id="node5" href="$buzzer_8c.html" title="Initializes BUZZER PWM and provides task functions, with and without the use of semaphores,..." alt="" coords="417,80,516,107"/>
+</map>

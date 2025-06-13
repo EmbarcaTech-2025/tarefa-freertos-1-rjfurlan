@@ -1,0 +1,6 @@
+<map id="include/config.h" name="include/config.h">
+<area shape="rect" id="node1" title="Parameters that will be used by the software." alt="" coords="87,5,211,32"/>
+<area shape="rect" id="node2" href="$main_8c.html" title="Initializes devices and launches tashs on the RTOS." alt="" coords="5,80,72,107"/>
+<area shape="rect" id="node3" href="$buttons_8c.html" title="Initializes the button GPIOs and provides task functions, with and without the use of semaphores,..." alt="" coords="97,80,202,107"/>
+<area shape="rect" id="node4" href="$buzzer_8c.html" title="Initializes BUZZER PWM and provides task functions, with and without the use of semaphores,..." alt="" coords="227,80,325,107"/>
+</map>

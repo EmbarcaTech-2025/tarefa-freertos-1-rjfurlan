@@ -1,0 +1,11 @@
+<map id="src/buzzer.c" name="src/buzzer.c">
+<area shape="rect" id="node1" title="Initializes BUZZER PWM and provides task functions, with and without the use of semaphores,..." alt="" coords="471,5,569,32"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,80,107,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="131,80,261,107"/>
+<area shape="rect" id="node4" title=" " alt="" coords="328,155,424,181"/>
+<area shape="rect" id="node5" title=" " alt="" coords="461,155,544,181"/>
+<area shape="rect" id="node6" title=" " alt="" coords="569,80,631,107"/>
+<area shape="rect" id="node7" href="$app__semaphores_8h.html" title="Initializes semaphores and makes them available." alt="" coords="336,80,544,107"/>
+<area shape="rect" id="node8" href="$buzzer_8h.html" title="Initializes BUZZER PWM and provides task functions, with and without the use of semaphores,..." alt="" coords="707,80,845,107"/>
+<area shape="rect" id="node9" href="$config_8h.html" title="Parameters that will be used by the software." alt="" coords="869,80,1005,107"/>
+</map>

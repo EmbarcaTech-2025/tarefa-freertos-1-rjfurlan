@@ -1,0 +1,5 @@
+<map id="include/buttons.h" name="include/buttons.h">
+<area shape="rect" id="node1" title="Initializes the button GPIOs and provides task functions, with and without the use of semaphores,..." alt="" coords="26,5,161,32"/>
+<area shape="rect" id="node2" href="$main_8c.html" title="Initializes devices and launches tashs on the RTOS." alt="" coords="5,80,72,107"/>
+<area shape="rect" id="node3" href="$buttons_8c.html" title="Initializes the button GPIOs and provides task functions, with and without the use of semaphores,..." alt="" coords="97,80,202,107"/>
+</map>
